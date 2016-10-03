@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libroRecetas>
+
+<recipes>
+  <recipe>
+    <name> Tenadillas </name>
+    <ingredients>
+      <name> Salchicha </name>
+      <name> Chorizo </name>
+      <name> Queso </name>
+      <name> Hojaldre </name>
+      <name> Huevo batido </name>
+    </ingredients>
+
+    <elaboration>
+      <step> Corto las salchichas, chorizo y queso en trozos </step>
+      <step> Corto el hojaldre en varios trozos en rectangulo </step>
+      <step> Se añade al hojaldre uno de cada ingrediente</step>
+      <step> Cerramos el hojaldre con los ingredientes </step>
+      <step> Pintamos el hojaldre con el huevo batido</step>
+      <step> Lo metemos en el horno hasta que esté dorado </step>
+    </elaboration>
+  </recipe>
+
+  <recipe>
+    <name> Sopa con fideos </name>
+    <ingredients>
+      <name> Fideos </name>
+      <name> Agua </name>
+      <name> Pastilla de avecrem </name>
+    </ingredients>
+
+    <elaboration>
+      <step> Calentamos el agua hasta que hierva </step>
+      <step> Cuando hierva añadimos la pastilla de avecrem </step>
+      <step> Tambien añadimos un puñado de fideo por persona</step>
+      <step> Cuando este blando apagar y servir </step>
+    </elaboration>
+  </recipe>
+</recipes>

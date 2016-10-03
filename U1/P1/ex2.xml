@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE autobuses>
+<bus>
+  <line number="40">
+    <schedule> Salida: 8:00 am </schedule>
+    <route> Puerta Jerez - El Cerro </route>
+    <stop>
+      <site> Puerta Jerez </site>
+      <hour> 8:00 am </hour>
+    </stop>
+
+    <stop>
+      <site> San Bernardo </site>
+      <hour> 8:10 am </hour>
+    </stop>
+
+    <stop>
+      <site> Ciudad Jardin </site>
+      <hour> 8:15 am </hour>
+    </stop>
+
+    <stop>
+      <site> El Cerro </site>
+      <hour> 8:25 am </hour>
+    </stop>
+
+  </line>
+
+  <line number="26">
+    <schedule> Salida: 10:00 am </schedule>
+    <route> San Bernado - Parque los principes </route>
+    <stop>
+      <site> San Bernardo </site>
+      <hour> 10:00 am </hour>
+    </stop>
+    <stop>
+      <site> El Prado </site>
+      <hour> 10:10 am </hour>
+    </stop>
+    <stop>
+      <site> Puerta Jerez </site>
+      <hour> 10:15 am </hour>
+    </stop>
+    <stop>
+      <site> Plaza de Cuba </site>
+      <hour> 10:35 am </hour>
+    </stop>
+
+    <stop>
+      <site> Parque de los Principes </site>
+      <hour> 10:45 am </hour>
+    </stop>
+    
+  </line>
+</bus>
