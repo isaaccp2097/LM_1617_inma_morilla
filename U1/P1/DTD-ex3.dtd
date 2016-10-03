@@ -1,0 +1,9 @@
+<!ELEMENT cookbook (recipe+)>
+<!ELEMENT recipe (name,ingredients,process)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT ingredients (ingredent+)>
+<!ELEMENT ingredient (name, quantity?)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT process (step+)>
+<!ATTLIST step orden CDATA #REQUIRED>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stocks>
+  <stock exchange="">
+    <name>Amazon</name>
+    <price>107.50</price>
+  </stock>
+  <stock exchange="">
+    <name> Microsoft </name>
+    <symbol> MS </symbol>
+    <price> 250.75</price>
+  </stock>
+</stocks>
