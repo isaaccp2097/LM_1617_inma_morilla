@@ -5,7 +5,7 @@
 	<equipos-enfrentados>Sevilla-Alavés</equipos-enfrentados>
 	<resultado>2-1</resultado>
 	<equipo>
-		<nombre-equipo>Sevilla F.C</nombre-equipo>
+		<nombre-equipo tipo="Local">Sevilla F.C</nombre-equipo>
 		<goleador>W.Ben Yedder</goleador>
 		<sancionados>
 			<amarilla>
@@ -30,7 +30,7 @@
 		</lesionados>
 	</equipo>
 	<equipo>
-		<nombre-equipo>D. Alavés</nombre-equipo>
+		<nombre-equipo tipo="Visitante">D. Alavés</nombre-equipo>
 		<goleador>Laguardia</goleador>
 		<sancionados>
 			<amarilla>

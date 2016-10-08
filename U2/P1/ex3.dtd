@@ -1,5 +1,5 @@
 <!ELEMENT catenemontuose (catenamontuosa*)>
-<!ELEMENT catenamontuosa (monte+)>
+<!ELEMENT catenamontuosa (nombre,monte+)>
 <!ELEMENT monte (nome, regione?, altezza?)>
 <!ELEMENT nome (#PCDATA)>
 <!ELEMENT regione (#PCDATA)>

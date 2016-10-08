@@ -3,14 +3,14 @@
 <catenemontuose>
   <catenamontuosa>
     <monte>
-      <nome>Sierra Morena</nome>
+      <nome>Picos de Bañuela</nome>
       <regione>Andalucia</regione>
       <altezza unitamisura="metros">1324</altezza>
     </monte>
     <monte>
-	<nome>Sierra de Cazorla</nome>
-	<regione>Andalucia</regione>
-	<altezza unitamisura="metro"></altezza>
-    </monte>	
+	    <nome>Corral de borros</nome>
+      <regione>Andalucia</regione>
+      <altezza unitamisura="metros">1312</altezza>
+    </monte>
   </catenamontuosa>
 </catenemontuose>

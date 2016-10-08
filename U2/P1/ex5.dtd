@@ -3,6 +3,7 @@
 <!ELEMENT resultado (#PCDATA)>
 <!ELEMENT equipo (nombre-equipo,goleador?,sancionados?,goles?,lesionados?)>
 <!ELEMENT nombre-equipo (#PCDATA)>
+<!ATTLIST nombre-equipo tipo CDATA #REQUIRED>
 <!ELEMENT goleador (#PCDATA)>
 <!ELEMENT sancionados (amarilla*,roja*)>
 <!ELEMENT amarilla (jugador+)>
@@ -15,4 +16,3 @@
 <!ELEMENT motivo (#PCDATA)>
 <!ELEMENT lesionados (nombre*)>
 <!ELEMENT nombre (#PCDATA)>
-
