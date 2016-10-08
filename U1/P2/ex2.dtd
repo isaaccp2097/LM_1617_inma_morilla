@@ -1,9 +1,9 @@
-<!ELEMENT lettera (cliente,ordine,responsabile)>
+<!ELEMENT lettera (#PCDATA|cliente|ordine|responsabile)*>
 <!ELEMENT cliente (#PCDATA)>
 <!ATTLIST ordine num CDATA #REQUIRED>
 <!ELEMENT ordine (articolo+)>
 <!ELEMENT articolo (codice, descr)>
 <!ELEMENT codice (#PCDATA)>
 <!ELEMENT descr (#PCDATA)>
-<!ELEMENT responsabile (tit)>
+<!ELEMENT responsabile (#PCDATA|tit)*>
 <!ELEMENT tit (#PCDATA)>

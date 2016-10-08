@@ -1,0 +1,18 @@
+<!ELEMENT partido (equipos-enfrentados,resultado,equipo+)>
+<!ELEMENT equipos-enfrentados (#PCDATA)>
+<!ELEMENT resultado (#PCDATA)>
+<!ELEMENT equipo (nombre-equipo,goleador?,sancionados?,goles?,lesionados?)>
+<!ELEMENT nombre-equipo (#PCDATA)>
+<!ELEMENT goleador (#PCDATA)>
+<!ELEMENT sancionados (amarilla*,roja*)>
+<!ELEMENT amarilla (jugador+)>
+<!ELEMENT jugador (#PCDATA)>
+<!ATTLIST jugador num CDATA #REQUIRED>
+<!ELEMENT roja (#PCDATA)>
+<!ELEMENT goles (marcado+)>
+<!ELEMENT marcado (minuto,motivo)>
+<!ELEMENT minuto (#PCDATA)>
+<!ELEMENT motivo (#PCDATA)>
+<!ELEMENT lesionados (nombre*)>
+<!ELEMENT nombre (#PCDATA)>
+

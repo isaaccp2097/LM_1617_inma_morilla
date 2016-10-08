@@ -1,0 +1,7 @@
+<!ELEMENT catenemontuose (catenamontuosa*)>
+<!ELEMENT catenamontuosa (monte+)>
+<!ELEMENT monte (nome, regione?, altezza?)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT regione (#PCDATA)>
+<!ELEMENT altezza (#PCDATA)>
+<!ATTLIST altezza unitamisura CDATA #REQUIRED>

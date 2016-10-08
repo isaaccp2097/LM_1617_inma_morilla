@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE partido SYSTEM "ex5.dtd">
+
+<partido>
+	<equipos-enfrentados>Sevilla-Alavés</equipos-enfrentados>
+	<resultado>2-1</resultado>
+	<equipo>
+		<nombre-equipo>Sevilla F.C</nombre-equipo>
+		<goleador>W.Ben Yedder</goleador>
+		<sancionados>
+			<amarilla>
+				<jugador num="24">G. Mercado</jugador>
+				<jugador num="3">Mariano</jugador>
+			</amarilla>
+		</sancionados>
+
+		<goles>
+			<marcado>
+				<minuto>74</minuto>
+				<motivo>Jugada</motivo>
+			</marcado>
+			<marcado>
+				<minuto>90</minuto>
+				<motivo>Jugada</motivo>
+			</marcado>
+		</goles>
+		<lesionados>
+			<nombre>S.Nasri</nombre>
+			<nombre>L.Vietto</nombre>
+		</lesionados>
+	</equipo>
+	<equipo>
+		<nombre-equipo>D. Alavés</nombre-equipo>
+		<goleador>Laguardia</goleador>
+		<sancionados>
+			<amarilla>
+				<jugador num="4">Alexis</jugador>
+				<jugador num="15">Theo Hernández</jugador>
+				<jugador num="3">Raúl García</jugador>
+				<jugador num="6">Marcos Llorente</jugador>
+				<jugador num="17">Édgar Méndez</jugador>
+				<jugador num="19">Manu García</jugador>
+			</amarilla>
+		</sancionados>
+		<goles>
+			<marcado>
+				<minuto>84</minuto>
+				<motivo>Jugada</motivo>
+			</marcado>
+		</goles>
+		<lesionados>
+			<nombre>Kiko Femenía</nombre>
+			<nombre>D. Torres</nombre>
+			<nombre>Camarasa</nombre>
+			<nombre>A. Pantić </nombre>
+		</lesionados>
+	</equipo>
+</partido>

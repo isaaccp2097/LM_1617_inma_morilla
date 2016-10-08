@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE stock SYSTEM "ex4.dtd">
+<stock>
+	<used-car>
+		<model>Peugeot 207</model>
+		<price>5.500€</price>
+		<mileage>65.000 Km</mileage>
+		<condition>Buen estado</condition>
+	</used-car>
+</stock>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catenemontuose SYSTEM "ex3.dtd">
+<catenemontuose>
+  <catenamontuosa>
+    <monte>
+      <nome>Sierra Morena</nome>
+      <regione>Andalucia</regione>
+      <altezza unitamisura="metros">1324</altezza>
+    </monte>
+    <monte>
+	<nome>Sierra de Cazorla</nome>
+	<regione>Andalucia</regione>
+	<altezza unitamisura="metro"></altezza>
+    </monte>	
+  </catenamontuosa>
+</catenemontuose>
