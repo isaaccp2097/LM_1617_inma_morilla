@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="subject">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="languaje" />
+        <xsd:element ref="systems" />
+      </xsd:sequencce>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="languaje">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="student" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="systems">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="student" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="student">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="firts" />
+        <xsd:element ref="last" />
+        <xsd:element ref="email" />
+        <xsd:element ref="address" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="firts" type="xsd:string" />
+  <xsd:element name="last" type="xsd:string" />
+  <xsd:element name="email" type="xsd:string" />
+  <xsd:element name="address" type="xsd:string" />
+  
+</xsd:schema>
