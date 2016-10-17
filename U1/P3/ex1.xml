@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<club>
+  <member>
+    <name>Chris Smith</name>
+    <phone>652325125</phone>
+    <years-membership>4</years-membership>
+    <email>chris_smith@gmail.com</email>
+  </member>
+  <member>
+    <name>Judi Zimmerman</name>
+    <phone>685496534</phone>
+    <years-membership>5</years-membership>
+    <email>Judi_zimmerman@gmail.com</email>
+  </member>
+  <member>
+    <name>Michael Calder</name>
+    <phone>648592315</phone>
+    <years-membership>3</years-membership>
+    <email>michael_calder@gmail.com</email>
+  </member>
+</club>

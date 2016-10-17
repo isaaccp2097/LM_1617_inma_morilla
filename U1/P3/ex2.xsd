@@ -1,46 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xsd:element name="route">
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <xsd:element name="libreria">
     <xsd:complexType>
       <xsd:sequence>
-        <xsd:element ref="name" minOccurs="1" maxOccurs="1"/>
-        <xsd:element ref="schedule" minOccurs="1" maxOccurs="1"/>
-        <xsd:element ref="stops" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="libro" minOccurs="1" maxOccurs="unbounded" />
       </xsd:sequence>
     </xsd:complexType>
   </xsd:element>
 
-  <xsd:element name="name" type="xsd:string"/>
-
-  <xsd:element name="schedule">
+  <xsd:element name="libro">
     <xsd:complexType>
       <xsd:sequence>
-        <xsd:element ref="first" minOccurs="1" maxOccurs="1"/>
-        <xsd:element ref="last" minOccurs="1" maxOccurs="1"/>
-      </xsd:sequence>
-    </xsd:complexType>
-  </xsd:element>
-  <xsd:element name="first" type="xsd:decimal"/>
-  <xsd:element name="last" type="xsd:decimal"/>
-
-  <xsd:element name="stops">
-    <xsd:complexType>
-      <xsd:sequence>
-        <xsd:element ref="stop" minOccurs="1" maxOccurs="unbounded"/>
+        <xsd:element ref="titulo" />
+        <xsd:element ref="autor" minOccurs="1" maxOccurs="unbounded" />
+        <xsd:element ref="year" />
+        <xsd:element ref="editorial" />
       </xsd:sequence>
     </xsd:complexType>
   </xsd:element>
 
-  <xsd:element name="stop">
-    <xsd:complexType>
-      <xsd:sequence>
-        <xsd:element ref="street" minOccurs="1" maxOccurs="1"/>
-        <xsd:element ref="number" minOccurs="1" maxOccurs="1"/>
-      </xsd:sequence>
-    </xsd:complexType>
-    <xsd:attribute name="order" type="xsd:decimal"/>
-  </xsd:element>
-
-  <xsd:element name="street" type="xsd:string"/>
-  <xsd:element name="number" type="xsd:string"/>
+  <xsd:element name="titulo" type="xsd:string" />
+  <xsd:element name="autor" type="xsd:string" />
+  <xsd:element name="year" type="xsd:decimal" />
+  <xsd:element name="editorial" type="xsd:string" />
 </xsd:schema>
