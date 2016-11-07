@@ -51,7 +51,7 @@
           <b>Rationales:</b><br>
           <input type="text" name="rationales" size="40">
         </td>
-        <td>
+        <td colspan="2">
           <b>Class <br> Meetings/Weeks:</b><br>
           <input type="number" name="clase" value="1" min="1" max="20">
         </td>
@@ -72,11 +72,11 @@
           <b>Rationales:</b><br>
           <input type="text" name="rationale" size="40">
         </td>
-        <td>
+        <td colspan="2">
           <b>Class Hours/Week:</b><br>
           <input type="number" name="hours" min="1" max="20" value="0">
         </td>
-        <td>
+        <td rowspan="5">
           <input type="checkbox" name="scuebce" value="science"><br>
           <input type="checkbox" name="fine arts" value="fine arts"><br>
           <input type="checkbox" name="Lab" value="Lab"><br>
@@ -86,7 +86,7 @@
           <input type="checkbox" name="attentive" value="attentive"><br>
           <input type="checkbox" name="intensive" value="intensive"><br>
         </td>
-        <td>
+        <td rowspan="5">
           Scince for non-majors <br>
           Fine arts for non-majors <br>
           Lab science course <br>
@@ -113,9 +113,110 @@
           <b>Rationales:</b><br>
           <input type="text" name="ration" size="40">
         </td>
+        <td colspan="2">
+          <b>Semester(s) Offered:</b><br>
+          <select class="semester" name="semester">
+            <option value="-none-" selected="selected">-none-</option>
+            <option value="Sep-Dic">Septiembre-Diciembre</option>
+            <option value="Ene-Mar">Enero-Marzo</option>
+            <option value="Abr-Jun">Abril-Junio</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="3">
+          <input type="checkbox" name="Prerequisite" value="prerequisite">
+        </td>
+        <td rowspan="3">Prerequisite</td>
+        <td rowspan="3"></td>
         <td>
-          <b>Semester(s) Offered:</b>
-          <input type="text" name="name" value="">
+          <b>Rationale:</b><br>
+          <input type="text" name="rationa" size="40" >
+        </td>
+        <td rowspan="3">
+          <input type="checkbox" name="semester" value="semester"><br>
+          <input type="checkbox" name="offered" value="offered"><br>
+          <input type="checkbox" name="catalog" value="catalog"><br>
+        </td>
+        <td rowspan="3">
+          Incl. semester in <br> prereqs.<br>
+          Offered only once <br>
+          Incl. in printed <br>catalog
+
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Required Prereqs. (major, course):</b><br>
+          <input type="text" name="prereqs" size="40">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Recommended Prereqs.:</b><br>
+          <input type="text" name="recommended" size="40">
+        </td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <td colspan="2">
+          <b>Approvals:</b>
+        </td>
+        <td>
+          <b>Date:</b>
+        </td>
+        <td>
+          <b>Comment:</b>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="checkbox" name="CEP" value="CEP">
+        </td>
+        <td>
+          CEP
+        </td>
+        <td>
+          <img src="Imagen1.png" alt="aspa" />
+          <input type="text" name="date" size="30">
+        </td>
+        <td>
+          <img src="Imagen1.png" alt="aspa" />
+          <input type="text" name="date" size="60">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="checkbox" name="Committe" value="committe">
+        </td>
+        <td>
+          Committe of Six
+        </td>
+        <td>
+          <img src="Imagen1.png" alt="aspa" />
+          <input type="text" name="date" size="30">
+        </td>
+        <td>
+          <img src="Imagen1.png" alt="aspa" />
+          <input type="text" name="date" size="60">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="checkbox" name="faculty" value="faculty">
+        </td>
+        <td>
+          Faculty
+        </td>
+        <td>
+          <img src="Imagen1.png" alt="aspa" />
+          <input type="text" name="date" size="30">
+        </td>
+        <td>
+          <img src="Imagen1.png" alt="aspa" />
+          <input type="text" name="date" size="60">
         </td>
       </tr>
     </table>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 2</title>
+  </head>
+  <body>
+    <table border="1">
+      <thead bgcolor="#58FAF4">
+        <tr>
+          <th>
+            Event Planner
+          </th>
+          <td colspan="3">
+            <select name="event planner">
+              <option value="More Actions" selected="selected">More Actions</option>
+              <option value="boda">Boda</option>
+              <option value="comunion">Comunión</option>
+              <option value="bautizo">Bautizo</option>
+            </select>
+          </td>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <td>
+            <b>Event Name</b>
+          </td>
+          <td>
+            <input type="text" name="ename" size="30">
+          </td>
+          <td rowspan="2">
+            <b>Requirements</b>
+          </td>
+          <td rowspan="2">
+            <input type="checkbox" name="staffing" value="staffing">Staffing <br>
+            <input type="checkbox" name="catering" value="catering">Catering <br>
+            <input type="checkbox" name="Security" value="security">Security
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>Event Coordinator</b>
+          </td>
+          <td>
+            <input type="text" name="ename" size="30">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>Email</b>
+          </td>
+          <td>
+            <input type="text" name="ename" size="30">
+          </td>
+          <td>
+            <b>Event Start Date</b>
+          </td>
+          <td>
+            <input type="datetime-local" name="start" size="15"><img src="Imagen2.png" alt="Calendario" />[dd-MM-yyyy <br> HH:mm:ss]
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>Event Type</b>
+          </td>
+          <td>
+            <select name="event type" >
+              <option value="seleccion" selected="selected">Selecciona una opción...</option>
+              <option value="concert">Concierto</option>
+              <option value="Celebracion">Celebracion</option>
+              <option value="congreso">Congresos</option>
+              <option value="inauguración">Inauguración</option>
+            </select>
+          </td>
+          <td>
+            <b>Event End Date</b>
+          </td>
+          <td>
+            <input type="datetime-local" name="start" size="15"><img src="Imagen2.png" alt="Calendario" />[dd-MM-yyyy <br> HH:mm:ss]
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>Total Members</b>
+          </td>
+          <td>
+            <select name="member">
+              <option value="seleccion" selected="selected">-Select-</option>
+              <option value="10">10</option>
+              <option value="40">40</option>
+              <option value="60">60</option>
+              <option value="100">100</option>
+              <option value="500">500</option>
+            </select>
+          </td>
+          <td rowspan="2">
+            <b>Location</b>
+          </td>
+          <td rowspan="2">
+            <textarea name="Location" rows="5" cols="25"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="2">
+            <b>Event Description</b>
+          </td>
+          <td rowspan="2">
+            <textarea name="description" rows="8" cols="40"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>City</b>
+          </td>
+          <td>
+            <input type="text" name="city" size="40">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>State</b>
+          </td>
+          <td>
+            <select name="estado">
+              <option value="seleccion" selected="selected">-Select-</option>
+              <option value="Andalucia">Andalucia</option>
+              <option value="Asturias">Asturias</option>
+              <option value="Aragon">Aragon</option>
+              <option value="Baleares">Baleares</option>
+              <option value="Cantabria">Cantabria</option>
+              <option value="Canarias">Canarias</option>
+              <option value="Cataluña">Cataluña</option>
+              <option value="Leon">Castilla y Leon</option>
+              <option value="Mancha">Castilla-La Mancha</option>
+              <option value="Extremadura">Extremadura</option>
+              <option value="Galicia">Galicia</option>
+              <option value="Rioja">La Rioja</option>
+              <option value="Madrid">Madrid</option>
+              <option value="Murcia">Murica</option>
+              <option value="Navarra">Navarra</option>
+              <option value="Vasco">País Vasco</option>
+              <option value="Valencia">Valencia</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>Does your program <br> involve any type of <br> outside activity</b>
+          </td>
+          <td>
+            <input type="radio" name="si" value="yes">Yes <br>
+            <input type="radio" name="no" value="no">No
+          </td>
+          <td>
+            <b>Country</b>
+          </td>
+          <td>
+            <select name="país">
+              <option value="seleccion" selected="selected">-Select-</option>
+              <option value="espanya">España</option>
+              <option value="otro">Otro</option>
+            </select>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
