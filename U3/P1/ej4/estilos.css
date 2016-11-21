@@ -27,8 +27,10 @@ p.comment {
 }
 
 /* Divs */
-div.reference {color:slategray;
-  margin-left: 40px;}
+div.reference {
+  color:slategray;
+  margin-left: 40px;
+}
 
 /* Links */
 a:link     {color:green;}
