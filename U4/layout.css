@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+}
+
+#container {
+  margin: 0px auto;
+  width: 800px;
+  overflow-y: auto;
+}
+
+#cabecera {
+  background-color: #4dc1ee;
+  overflow-y: auto;
+}
+
+#menu{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  background-color: #0099cd;
+  margin: 7px 2px;
+  padding: 10px 40px;
+  border: 1px solid #0099cd;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#texto{
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-right: 60%;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+#opciones{
+  text-align: center;
+  color: black;
+}
+
+#sin {
+  margin: 0px;
+  font-size: 30px;
+}
+
+#titulo{
+  font-size: 15px;
+  margin: 2px;
+}
