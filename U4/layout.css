@@ -1,18 +1,25 @@
 *{
   box-sizing: border-box;
 }
-
+/*estilos del div general */
 #container {
   margin: 0px auto;
   width: 800px;
   overflow-y: auto;
+  position:relative;;
 }
-
+/*Estilos del div que divide cabecera*/
 #cabecera {
   background-color: #4dc1ee;
   overflow-y: auto;
 }
 
+/*Para texto con tamaño grande y sin margen*/
+#sin {
+  margin: 0px;
+  font-size: 30px;
+}
+/*Estilos para el botón GET STARTED*/
 #menu{
   color: white;
   font-family: 'Raleway', sans-serif;
@@ -32,21 +39,69 @@
   font-family: 'Raleway', sans-serif;
 }
 
-#opciones{
-  text-align: center;
-  color: black;
-}
-
-#sin {
-  margin: 0px;
-  font-size: 30px;
-}
-
 #titulo{
   font-size: 15px;
   margin: 2px;
 }
 
 #imagen{
-  
+  margin-left: 20%;
+  margin-right: 10%;
+  position: absolute;
+  float: left;
+
+}
+
+/*Estilos que divide el div cuerpo*/
+#cuerpo {
+  overflow-y: auto;
+}
+
+/*Estilos para la división de las imagenes y el texto*/
+.caja {
+  display: inline-block;
+  width: 20%;
+  height: 20%;
+  margin: 2em;
+  text-align: center;
+  margin-top: 5%;
+}
+/*Este estilo es para el primer parrafo*/
+.parrafo {
+  display: inline-block;
+  width: 20%;
+  height: 20%;
+  margin-left: 2em;
+  text-align: center;
+  margin-top: 1em;
+  color: grey;
+
+}
+
+/*Este estilo se aplica a los demás parrafos porque necesita
+mas margen que el primer parrafo*/
+.parrafo2 {
+  display: inline-block;
+  width: 20%;
+  height: 20%;
+  margin-left: 4em;
+  text-align: center;
+  margin-top: 1em;
+  color: grey;
+}
+
+/*Estilo aplicable al parrafo que se encuentra debajo de las imagenes*/
+#tabla{
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+
+/* Titulo de los parrafos de debajo de las imagenes*/
+.ptitulo{
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 20px;
+  margin: 3px;
 }
