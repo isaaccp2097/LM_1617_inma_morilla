@@ -12,6 +12,9 @@
 #cabecera {
   background-color: #4dc1ee;
   overflow-y: auto;
+  position: relative;
+  height: 425px;
+
 }
 
 /*Para texto con tamaño grande y sin margen*/
@@ -25,13 +28,14 @@
   font-family: 'Raleway', sans-serif;
   background-color: #0099cd;
   margin: 7px 2px;
-  padding: 10px 40px;
+  padding: 16px 54px;
   border: 1px solid #0099cd;
   border-radius: 5px;
   font-weight: bold;
 }
-
+/*Texto del titulo de la izquierda de la imagen*/
 #texto{
+
   margin-left: 10%;
   margin-top: 10%;
   margin-right: 60%;
@@ -39,17 +43,30 @@
   font-family: 'Raleway', sans-serif;
 }
 
+/*Texto pequeño de la cabecera*/
 #titulo{
   font-size: 15px;
   margin: 2px;
+  font-weight: bold;
+}
+/*Estilo para el cuadrado chico de la cabecera*/
+#cuadrado{
+  position: absolute;
+  right: 100px;
+  left: 610px;
+  top: 25px;
 }
 
+/*Estilo de la imagen de la tablet*/
 #imagen{
-  margin-left: 20%;
-  margin-right: 10%;
   position: absolute;
-  float: left;
+  top:50px;
+  right: 140px;
+}
 
+.caja img {
+  width: 70px;
+  height: 70px;
 }
 
 /*Estilos que divide el div cuerpo*/
@@ -60,41 +77,26 @@
 /*Estilos para la división de las imagenes y el texto*/
 .caja {
   display: inline-block;
-  width: 20%;
-  height: 20%;
+  width: 19%;
+  overflow-y: auto;
   margin: 2em;
   text-align: center;
-  margin-top: 5%;
 }
 /*Este estilo es para el primer parrafo*/
 .parrafo {
   display: inline-block;
-  width: 20%;
-  height: 20%;
-  margin-left: 2em;
+  width: 19%;
+  margin: 2em;
   text-align: center;
-  margin-top: 1em;
   color: grey;
-
-}
-
-/*Este estilo se aplica a los demás parrafos porque necesita
-mas margen que el primer parrafo*/
-.parrafo2 {
-  display: inline-block;
-  width: 20%;
-  height: 20%;
-  margin-left: 4em;
-  text-align: center;
-  margin-top: 1em;
-  color: grey;
+  height: 170px;
 }
 
 /*Estilo aplicable al parrafo que se encuentra debajo de las imagenes*/
 #tabla{
   margin: 0px;
   font-family: 'Raleway', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 /* Titulo de los parrafos de debajo de las imagenes*/
@@ -102,6 +104,6 @@ mas margen que el primer parrafo*/
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
   color: black;
-  font-size: 20px;
+  font-size: 15px;
   margin: 3px;
 }
