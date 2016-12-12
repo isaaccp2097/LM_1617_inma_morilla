@@ -1,0 +1,74 @@
+*{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#contenedor {
+  width: 100%;
+  margin: 10px auto;
+  position: relative;
+
+}
+
+/*Estilo para la división derecha*/
+#derecha {
+  border-left:1px dashed black;
+  overflow-y: auto;
+  width: 60%;
+  position: absolute;
+  right: 5%;
+  text-align: center;
+}
+
+/*Estilo para la división izquierda*/
+#izquierda {
+  overflow-y: auto;
+  width: 40%;
+  position: absolute;
+  left: 8%;
+}
+
+}
+/*Estilos para la imagen de la isla*/
+#imagen {
+  width: 70px;
+  height: 70px;
+}
+
+/*Estilos para los parrafos de debajo de la imagen de la isla*/
+.texto {
+  font-size: 11px;
+  margin-left: 2em;
+  text-align: left;
+  width: 29%;
+  float: left;
+}
+
+
+/*Estilo para el pie de página*/
+#menu{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  background-color: #0099cd;
+  margin: 7px 2px;
+  padding: 16px 54px;
+  border: 1px solid #0099cd;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#pie{
+  position: fixed;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  background-color: grey;
+  margin: 5px 2px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  bottom: 2%;
+}
