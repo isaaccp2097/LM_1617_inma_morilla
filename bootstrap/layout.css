@@ -1,0 +1,58 @@
+#fondo{
+  background-image: url(fondo.jpg);
+}
+
+/*Estilo para el "product name"*/
+#product{
+  margin-left: 3%;
+  margin-top: 1%;
+  color: white;
+  font-size: 2em;
+}
+/*Estilo para el título del texto de la cabecera*/
+#titulo{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+/*Estilo del texto de la cabecera*/
+#texto1 {
+  color: white;
+  text-align: left;
+}
+
+/*Estilos para las flechas*/
+#posicion {
+  margin-top: 10%;
+}
+#posicion-der {
+  margin-top: 10%;
+}
+#posicion-der img {
+  padding-left: 80%;
+}
+
+/*Estilos para cuadrados de 300 x 180 */
+#cuadro {
+  background-color: #f10027;
+  margin-top: 3%;
+  margin-right: 5px;
+}
+
+#texto2 {
+  font-size: 2em;
+  color: white;
+  /*margin-top: 20%;
+  margin-bottom: 10%;*/
+  padding: 2%;
+  text-align: center;
+}
+
+#texto3 {
+  color: grey;
+  text-align: left;
+}
+#centrado {
+  text-align: center;
+}
