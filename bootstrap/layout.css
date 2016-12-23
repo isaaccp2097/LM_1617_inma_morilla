@@ -2,6 +2,18 @@
   background-image: url(fondo.jpg);
 }
 
+/*Estilo del botón read more*/
+#boton{
+        font-size:12px;
+        font-family:Verdana,Helvetica;
+        color:black;
+        background:white;
+        border:1px grey;
+        width:80px;
+        height:30px;
+        margin-left: 90%;
+       }
+
 /*Estilo para el "product name"*/
 #product{
   margin-left: 3%;
@@ -34,25 +46,27 @@
 }
 
 /*Estilos para cuadrados de 300 x 180 */
-#cuadro {
+.cuadro {
   background-color: #f10027;
-  margin-top: 3%;
-  margin-right: 5px;
+  border: 10px solid white;
+  margin-top: 1%;
 }
 
+/*Texto de dentro del cuadro*/
 #texto2 {
   font-size: 2em;
   color: white;
-  /*margin-top: 20%;
-  margin-bottom: 10%;*/
-  padding: 2%;
+  padding: 20%;
   text-align: center;
 }
-
+/*Estilo para los cuadros de texto del final*/
 #texto3 {
   color: grey;
   text-align: left;
+  font-size: 15px;
 }
-#centrado {
+h3{
+  color: grey;
   text-align: center;
+
 }
