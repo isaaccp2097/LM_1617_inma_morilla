@@ -1,0 +1,23 @@
+.titulo{
+  background-color: black;
+  color: white;
+}
+
+table{
+  text-align: center;
+  border: black solid 2px;
+}
+td{
+  border: solid 1px;
+  border-collapse: collapse;
+}
+
+.impares{
+  background-color: #BDBDBD;
+  color: black;
+}
+
+.pares{
+  background-color: grey;
+  color: white;
+}
